@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Insert Images</title>
+</head>
+<body>
+    <!--To insert an image we use img tag 
+        It is a self closing tag
+        it has two attribute src and alt
+        src-> image path we need to give and we can use hyperlinks also
+        alt is used in two ways
+        1. it is used to mention description of image(Used when some one uses screen reader)
+        2.if the image mentioned in src is not present then on browser it will display the alt description
+        (Image not found: not a good practice)-->
+
+        <h3>Static image present in project files</h3>
+        <img src="./H2.jpeg" alt="Hydrogen image">
+        <h3>Image not found but description will be visible</h3>
+        <img src="./H.jpeg" alt="Hydrogen image">
+        <h3>images fetch from API and are displayed randomly</h3>
+        <img src="https://source.unsplash.com/random" alt="Random image">
+
+        <h3>images fetch from API and are displayed randomly of particular size and theme or random images</h3>
+        <img src="https://source.unsplash.com/600x400/?random" alt="Random image">
+        <!--link/size/?theme(?it will search for particalar images it is like query)-->
+    
+</body>
+</html>
