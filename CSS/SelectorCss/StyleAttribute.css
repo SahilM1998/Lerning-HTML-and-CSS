@@ -1,0 +1,28 @@
+input[type="text"] {
+  color: rgb(7, 4, 190);
+  background-color: coral;
+}
+
+input[type="password"] {
+  color: rgb(238, 123, 16);
+  background-color: rgb(213, 235, 20);
+}
+
+a[href = "https://www.google.co.in"]
+{
+  color: cyan;
+}
+/*a[href $=".com"] {
+  color: darkgreen;
+}
+
+*-> to search with a particular word
+^-> start with that word
+$->contain a word
+
+
+*/
+
+a[href^="https"] {
+  color: darkgreen;
+}

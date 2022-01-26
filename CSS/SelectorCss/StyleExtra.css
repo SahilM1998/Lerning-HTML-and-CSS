@@ -1,0 +1,44 @@
+/*   
+universal selector is *{}
+
+if we used header space p then that propertires will be applicable only to that all the para present in header
+called as combinators or desendent
+
+section.mySection > h2 direct child selector
+
+adjacent selector
+para which comes after hs there color should be change 
+
+
+
+*/
+
+* {
+  color: blue;
+}
+
+header {
+  background-color: indianred;
+}
+section.mySection {
+  background-color: lawngreen;
+}
+
+header p {
+  color: yellow;
+}
+
+li a {
+  color: yellowgreen;
+}
+section.mySection > h2 {
+  color: red;
+}
+
+h3 + p {
+  color: orangered;
+}
+
+section.mySection article h3 {
+  color: black;
+}
