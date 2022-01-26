@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple HTML form</title>
+</head>
+<body> 
+<!-- form tag is used to create form
+    label tag is used to gve label to the input field
+        for attribute is nused to give what will be the value of the lable
+    input tag to take user input
+        type attribute defines what kind of input it is
+        id attri is used to identify tag
+        type submit value att is used to display text on submit 
+
+        Attributes
+        method
+        http verbs
+        action
+        name - it will send the data in http request
+        
+        placeholder - used to give hint of that input field
+        required -that field should be filled after that only it will submit
+    
+    select tag
+    option tag is used to create multiple options
+
+    textarea tag is used to enter text for ex comments etc
+     input tag - type color -> used to pick color
+     input tag - type date -> used to select date
+     input tag - type file -> used to pick file
+
+
+-->
+    <h1>Simple HTML FORMS</h1>
+    <form action="completed.html" method="GET">
+        <label for="Username">Username_:    </label>
+        <input type="text" name="uname" id="Username" placeholder="Please enter your username" required>
+
+        <br>
+        <br>
+
+        <label for="password">Password : </label>
+        <input type="password" name="password" id="password" placeholder=" Enter your password" required>
+
+        <br>
+
+        <label for="email">Email ID</label>
+        <input type="email" name="email" id="email" placeholder="Enter the password">
+
+        <p>Enter your gender</p>
+        <label for="Male">Male</label>
+        <input type="radio" name="gen" id="Male" value="Male value is stored in DB" >
+        
+        <label for="Female">Female</label>
+        <input type="radio" name="gen" id="Female" value="Female value is stored in DB">
+        <br>
+        
+        <label for="">Others</label>
+        <input type="radio" name="gen" id="Others" value="other value is stored in DB">
+
+        <br><br>
+
+        <label for="age">Select your Age</label>
+        <select name="age group value" id="age">
+            <option value="5-18">5-18</option>
+            <option value="5-18">18-30</option>
+            <option value="5-18">30-60</option>
+            <option value="5-18">60+</option>
+            <option value="5-18">60+</option>
+            <option value="5-18">60+</option>
+            <option value="5-18">60+</option>
+        </select>
+
+        <br><br>
+        <p>Enter comments:</p>
+        <textarea name="comments" id="com" cols="30" rows="10" placeholder="Enter the comments"></textarea>
+
+        <br>
+        <label for="colorpick">Pick a color</label>
+        <input type="color" name="color value" id="colorpick">
+
+        <br>
+        <label for="date">select Date</label>
+        <input type="date" name="date value" id="date">
+
+        <br>
+        <label for="file">Select file</label>
+        <input type="file" name="fileIs" id="file">
+
+        <br><br>
+        <input type="submit" value="Submit the form">
+
+
+    </form>
+    
+</body>
+</html>
