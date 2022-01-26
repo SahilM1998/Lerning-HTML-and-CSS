@@ -1,0 +1,18 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+.main1 {
+  background-color: darkgray;
+}
+.main2 {
+  background-color: darkkhaki;
+}
+span {
+  background-color: darkturquoise;
+}
+h1 {
+  color: firebrick;
+}
+h3 {
+  color: green;
+}

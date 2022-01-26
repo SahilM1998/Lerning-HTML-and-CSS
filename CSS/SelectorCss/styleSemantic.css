@@ -1,0 +1,15 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: darkgray;
+}
+main {
+  background-color: darkkhaki;
+}
+.headingName {
+  color: firebrick;
+}
+span {
+  background-color: darkturquoise;
+}
