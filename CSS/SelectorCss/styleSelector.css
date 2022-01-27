@@ -1,3 +1,15 @@
+/* specificity
+ inline style attribute > id selector > class selector > element selector 
+  we can also use !impotant but not a good practice
+
+if two classes are define the one which is written down/last it will be used
+
+How to calculate specificity
+
+inline style present? , id present , class present, element present
+
+
+ */
 body {
   font-family: "Poppins", sans-serif;
 }
@@ -13,6 +25,9 @@ span {
 h1 {
   color: firebrick;
 }
-h3 {
+h3,
+span {
   color: green;
+  border: 5px solid red;
+  border-radius: 10px;
 }
