@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Dongle&display=swap");
+
+body {
+  font-family: "Dongle", sans-serif;
+  margin: 10px 100px 10px 100px;
+}
+header {
+  background-color: cadetblue;
+  padding: 2px;
+}
+h1 {
+  text-align: center;
+}
+
+article {
+  border: 5px solid blue;
+  margin: 10px 0px;
+  padding: 10px 10px 10px 10px;
+}
+/*.art1 {
+  border: 5px solid blue;
+  margin: 10px 0px;
+  padding: 10px 10px 10px 10px;
+}
+.art2 {
+  border: 5px solid blue;
+  margin: 10px 0px;
+  padding: 10px 10px 10px 10px;
+}
+*/
