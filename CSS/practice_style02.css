@@ -1,0 +1,31 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+nav {
+  background-color: cornflowerblue;
+  padding: 5px;
+}
+main {
+  margin: 2% 2%;
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav ul {
+  text-align: center;
+  padding-left: 0px;
+}
+
+nav li {
+  border-bottom: 2px solid blue;
+  display: inline;
+  margin: 10px 20px;
+  font-size: 20px;
+}
+h2 {
+  border-bottom: 2px solid blue;
+  margin-top: 20px;
+}
