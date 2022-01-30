@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+}
+
+.fav-musicians {
+  border: 10px solid green;
+}
+
+.fav-musicians::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.mozart {
+  border: 5px solid red;
+  width: 25%;
+  background-color: salmon;
+  float: left;
+  padding: 20px;
+}
+
+/* float property is used to float the elements we can set its value as left right none
+
+    clear right left both
+
+    whenever we used we will need to used a div class clearfix and need to use clear property to get the float align
+
+    trick to used clear instead of div clearfix
+    used psuedo element after 
+*/
+
+.beethoven {
+  border: 5px solid blue;
+  width: 25%;
+  background-color: rgb(111, 200, 228);
+  float: left;
+  padding: 20px;
+}
+
+.bach {
+  border: 5px solid red;
+  width: 25%;
+  background-color: salmon;
+  float: left;
+  padding: 20px;
+}
+.paganini {
+  border: 5px solid blue;
+  width: 25%;
+  background-color: salmon;
+  float: left;
+
+  padding: 20px;
+}
+
+/* .clearfix {
+  clear: both;
+} */

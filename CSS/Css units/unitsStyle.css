@@ -1,0 +1,79 @@
+/* 
+absolute units
+by default font size is 16px
+
+1 inch == 96 px = 2.54cm
+1px == 0.75pt(points)
+
+*/
+
+p {
+  font-size: 32px;
+  font-size: 1in;
+}
+
+/* 
+Relative units
+percentage % -> it is taken with respective of the parent style
+mostly used for border,width,height
+
+rem -> html root elemwnt is html so it multiplies n times to that root element size
+font size: 62.5% which means 10px
+
+em -> parent ka default or defined style le ke unta times
+it works differently with different properties
+
+
+for font size use rem
+padding margin em
+
+viewport vh, vw, vmin, vmax
+
+*/
+
+div {
+  font-size: 10px;
+}
+
+.rel {
+  font-size: 200%;
+  /* by default is 16px so 200% of 16px give 32px to the para tag is given */
+  /* now para is written in a div so it will consider its parent size so 200% of 10= 20px */
+}
+
+.box1 {
+  font-size: 2rem;
+}
+.test {
+  font-size: 3rem;
+  border: 1rem solid red;
+  margin: 0.5rem; /*5px*/
+  padding: 4.5rem; /*45px*/
+}
+
+p.box22 {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 2em;
+  border: 2em solid red;
+  padding: 3em;
+}
+.box2 {
+  font-size: 20px;
+}
+
+hr {
+  border: 5px solid black;
+}
+
+.box3 {
+  border: 4px solid blue;
+  padding: 5px;
+}
+
+h2 {
+  border: 4px solid red;
+  width: 20vw;
+}
