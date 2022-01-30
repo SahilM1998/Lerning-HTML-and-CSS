@@ -1,0 +1,88 @@
+/* 
+
+font-famil -> to change font
+font-size -> to change font size
+by default 16px is used for font size
+
+line- height -> height of a line
+word-spacing -> spacing betwwen two words
+letter-spacing -> spacing between letters
+font-weight -> lightness and darness of font
+by default is 400/normal
+
+box model
+border -> to give border to a element
+padding -> the spacing between border and content is know as padding
+padding: 20px 60px 10px 5px(T R B L)
+
+margin area outside of border
+if h1 has 100px margin and p has 50px then the margin which is greater that will be applied i.e 100px
+
+block level and inline elements
+block level elements will take the complete width which they have(h1,p,div , ul, li, form, article,aside,main,nav)
+they starts from next line
+
+inline (a,img,span textarea)
+they start from the same line
+as they take only the width which is required
+we can give inline element height and width,margin top and bottom
+but we can change them by usinf display properties
+
+specificity
+inline style > id > class > element
+
+browser adds by default 8px some default style
+
+*{} universal selector
+
+box sizing: border-box
+id we add padding then it will be changes inside the box only the overall sive will not change
+
+pseudo is used to define special states
+a:link - link which are yet to visit
+a:visited -  link is visited color changed
+a:hover -  mouse is pointed on link it is in hover state
+a:active - we have click on link and hold it
+it call be applicable to any elements
+mostly used in buttons and link
+and used in this sequence -LVHA
+
+pseudo fields with input fields
+input:focus ->on focus it style should be changed on particular field
+
+inpu:required -> fields which are required for them we can also change style
+
+p:first-child -> if the tag(para) is first child of the parent then that style should be applied only to the first child
+parent ka phele child hai
+
+P:first of type -> which is the first occurence of the tag for parent it will be applied that style
+parent ka phela jo bhi tag define voh
+
+p:last-child -> kya p last child hai parent ka
+
+p:last-of-type -> last p konsa hai voh tag ka
+
+nth of child->p:nth-child(2) voh tag jo apne parent ka second child hai(2n even child,2n+1 odd child)
+
+nth of type-. har parent ka second tag to style
+
+:not(element p,class) -> voh sare element jo p nahi hai unko style lage ye body ko bhi apply karega and inherite kare ga
+so body :not(p)
+:root{{-> selects root element or html{}
+it will applicable to complete html
+used for css variables
+:empty -> the tag which are empty we can give style to them
+
+particular part ko style dene ke liye pseudo elements ko
+
+p::first-letter
+p::first-line
+p::selection -> on selecting the tag it will be applied
+
+.class::before property we have content to add some text
+.class::after
+pseudo elements cannot be used with images,br,input etc
+
+
+
+*/
