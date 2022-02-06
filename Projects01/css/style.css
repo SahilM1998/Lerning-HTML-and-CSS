@@ -442,3 +442,138 @@ h3 {
   border: none;
   cursor: pointer;
 }
+
+/* Media Querires */
+
+@media (max-width: 500px) {
+  html {
+    font-size: 50%;
+  }
+  .navBar .logo,
+  .navBar .navItems {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+  }
+
+  .row1 .imgBox,
+  .row2 .textBox,
+  .row1 .textBox,
+  .row2 .imgBox {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+    box-shadow: 0px 0px 20px 0px rgb(109, 99, 99);
+  }
+  .boxWrapper {
+    box-shadow: none;
+  }
+
+  .bleft,
+  .bright {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .formWrapper .cmpAddress,
+  .formWrapper .cForm {
+    height: auto;
+    float: none;
+    width: 100%;
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* 501 to 768 */
+
+@media (min-width: 501px) and (max-width: 768px) {
+  html {
+    font-size: 50%;
+  }
+  p {
+    font-size: 1.8rem;
+  }
+
+  .navBar .logo,
+  .navBar .navItems {
+    float: none;
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+
+  .row {
+    height: auto;
+    width: 100%;
+  }
+
+  .row1 .imgBox,
+  .row2 .textBox,
+  .row1 .textBox,
+  .row2 .imgBox {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .features .box {
+    float: none;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 5rem;
+    box-shadow: 0px 0px 20px 0px rgb(109, 99, 99);
+  }
+  .boxWrapper {
+    box-shadow: none;
+  }
+
+  .bleft,
+  .bright {
+    float: none;
+    width: 100%;
+    text-align: center;
+  }
+
+  .formWrapper .cmpAddress,
+  .formWrapper .cForm {
+    height: auto;
+    float: none;
+    width: 100%;
+    background: #fff;
+    padding: 1rem;
+    margin-bottom: 5rem;
+  }
+}
+
+/* 769 to 1200 */
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  html {
+    font-size: 56.25%;
+  }
+  .row {
+    height: 500px;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 500px) {
+  .header {
+    height: 90vmax;
+  }
+}
