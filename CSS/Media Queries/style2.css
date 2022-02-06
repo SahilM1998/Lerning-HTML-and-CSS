@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.boxWrapper {
+  border: 2px solid blue;
+}
+
+.box1 {
+  float: left;
+  border: 2px solid red;
+  width: 48%;
+  padding: 10px;
+}
+
+.box2 {
+  float: right;
+  border: 2px solid gray;
+  width: 48%;
+  padding: 10px;
+}
+.boxWrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+@media (max-width: 1220px) {
+  .box1,
+  .box2 {
+    float: none;
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+}
