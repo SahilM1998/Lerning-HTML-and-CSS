@@ -1,0 +1,47 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxWrapper {
+  border: 10px solid black;
+  display: flex;
+}
+
+.box {
+  border: 1px solid gray;
+}
+
+.box1 {
+  background: red;
+}
+.box2 {
+  background: blue;
+}
+
+.box3 {
+  background: purple;
+}
+
+.box4 {
+  background: yellow;
+}
+
+.box5 {
+  background: green;
+}
+
+/* flex container 
+flex item */
+
+/* so here if we mentioned display:flex then it will be container i.e. boxwrapper and box1,2,3,4,5 will be flex item  
+
+if we give only display as flex them by default the main axis is from left to right
+main axis left to right
+cross axis top to bottom
+main axis where its start it is called main start and amin axis where its end it is main end
+same as for cross start and cross end
+
+complete left to right flex conatiner is call main size 
+complete top to bottom flex conatiner is call cross size
+
+*/
