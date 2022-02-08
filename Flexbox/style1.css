@@ -5,10 +5,24 @@ body {
 .boxWrapper {
   border: 10px solid black;
   display: flex;
+  /* flex-direction: row; */
+  /* flex-direction: row-reverse; */
+  /* flex-direction: column; */
+  /* flex-direction: column-reverse; */
+
+  /* flex-direction: column;
+  flex-wrap: wrap-reverse;
+  height: 400px; */
+
+  /* justify-content: space-around; */
+
+  height: 700px;
+  align-items: flex-end;
 }
 
 .box {
   border: 1px solid gray;
+  /* width: 100px; */
 }
 
 .box1 {
@@ -43,5 +57,28 @@ same as for cross start and cross end
 
 complete left to right flex conatiner is call main size 
 complete top to bottom flex conatiner is call cross size
+
+Flex Direction it is the properties of flex container
+flex-direction: row is by default property
+flex-direction: row-reverse; box5->box4->box3..... main axis is change from right to left
+flex-direction: column;
+flex-direction: column-reverse;
+
+Flex wrap (Container)
+by default nowrap
+
+
+Justify Content it will aling flex item toward main axis
+start,end ,center, space-between, space-around
+
+it works around main axis
+
+Align Items
+by default it is stretch
+flex-start,end ,center
+
+it work around cross axis 
+
+
 
 */
