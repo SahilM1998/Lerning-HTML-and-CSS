@@ -16,32 +16,53 @@ body {
 
   /* justify-content: space-around; */
 
-  height: 700px;
-  align-items: flex-end;
+  /* height: 700px;
+  align-items: flex-end; */
+  /* 
+  height: 400px;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: space-around;
+  justify-content: space-between; */
+
+  /* flex-flow: column wrap; */
+
+  /* height: 700px;
+  align-items: center;
+  justify-content: space-between; */
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .box {
   border: 1px solid gray;
   /* width: 100px; */
+  flex-basis: 500px;
 }
 
 .box1 {
   background: red;
+  /* order: 34; */
 }
 .box2 {
   background: blue;
+  /* align-self: stretch; */
+  /* order: 1; */
 }
 
 .box3 {
   background: purple;
+  /* order: 14; */
 }
 
 .box4 {
   background: yellow;
+  /* order: 6; */
 }
 
 .box5 {
   background: green;
+  /* order: 0; */
 }
 
 /* flex container 
@@ -70,14 +91,27 @@ by default nowrap
 
 Justify Content it will aling flex item toward main axis
 start,end ,center, space-between, space-around
-
 it works around main axis
 
 Align Items
 by default it is stretch
 flex-start,end ,center
-
 it work around cross axis 
+
+Align Content
+when we have multiple rows
+it works on cross axis
+
+flex flow => direction + wrap
+
+
+Align Self
+flex Item ki properties
+
+Order
+by default order is 0
+
+Flex-Basis initial length of main item towards main axis
 
 
 
