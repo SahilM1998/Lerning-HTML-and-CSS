@@ -1,0 +1,89 @@
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  animation-name: changeBgColor;
+  animation-duration: 5s;
+  animation-delay: 3s;
+  /* animation-iteration-count: 3; */
+  animation-fill-mode: forwards;
+}
+
+@keyframes changeBgColor {
+  from {
+    background: green;
+  }
+  to {
+    background: blue;
+  }
+}
+
+.box2 {
+  margin-top: 2rem;
+  width: 5px;
+  height: 15px;
+  background-color: orange;
+  animation-name: grow;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-direction: reverse;
+  animation-iteration-count: 3;
+}
+
+@keyframes grow {
+  from {
+    width: 0px;
+  }
+  to {
+    width: 400px;
+  }
+}
+
+.box3 {
+  margin-top: 3rem;
+  width: 100px;
+  height: 100px;
+  background: purple;
+  border-radius: 50%;
+
+  position: relative;
+  /* 
+  animation-name: moveAround;
+  animation-duration: 10s;
+   animation-iteration-count: infinite;
+  animation-delay: 2s;
+  animation-timing-function: ease-in;
+  animation-fill-mode: forwards; */
+  animation: moveAround 5s forwards 2s infinite ease-in;
+}
+
+@keyframes moveAround {
+  0% {
+    top: 0;
+    left: 0;
+    background: lightblue;
+  }
+  10% {
+    background: red;
+  }
+  25% {
+    top: 0;
+    left: 300px;
+    background: green;
+  }
+  50% {
+    top: 300px;
+    left: 300px;
+    background: yellow;
+  }
+  75% {
+    top: 300px;
+    left: 0;
+    background: goldenrod;
+  }
+  100% {
+    top: 0;
+    left: 0;
+    background: navajowhite;
+  }
+}
