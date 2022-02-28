@@ -1,0 +1,129 @@
+meta tag - define information about file,telling browser what character we are using,SOC
+inside the tag we have attributes/properties - custome information
+
+define information of file
+
+charset
+name-desc content - SOC
+name-author content
+name-keyword content -SOC
+name-viewport content - width=device-width,initial-scale=1.0
+controls how your website will be display on different device
+
+Formating tags
+h1,h2,h3,h4,h5,h6
+
+p - automatically spaces itslef
+
+b -bold , strong
+i -italic , em
+
+HTml doest not cares about white space it orders according to tags
+
+br - break gives space in between
+
+hr - horizonatl rule give a line takes complete width
+
+big - size get bigger not that much but size changes
+
+small - smaller size
+
+sub - sub script h2o
+
+sup - super script 10 square
+
+Comments
+<!-- -->
+
+Style Attribute to change style of a particular tag
+element will overwrite body
+
+Format content tags for layout
+header -header
+	nav - navigational elements or navigational links
+	
+main  - main content
+	article - text for a article
+	section - to give different section mostly used inside article
+	aside - not related to main content eg advertisement
+	
+footer - footer
+
+Link 
+User to link other pages, files or other websites
+
+a -anchore  attribute = href - where it should redirect
+target = _blank - open in new tab
+
+images
+
+img - image 
+
+src - source of image
+alt - description of image , if image is not loading,not found
+width and height given in pixels to keep in mind aspect ratio
+
+Videos
+video - ideo
+src - source local video
+controls - video will have contol options
+width height
+poster - thumbnail for the video
+autoplay - video will be auto play
+loop - play again
+
+iframe - to play embed website/video
+src - source
+frameborder
+width
+height
+
+some website cannot be embed because of settings
+
+List
+unordered list
+ul
+li - list 
+
+ordered list
+ol default type is 1
+li
+
+we can make list inside list
+
+dl - description list
+dt -desc term
+dd - desc of term
+
+Table -resize itself
+caption  - to give
+table
+
+thead -head of table 
+th - table header or tiles ofr the column
+tr -> th 
+
+tbody table body
+tr- horizontal row
+td -table data  attribute colspan how much column that tag will take
+tr -> td
+
+Container - wrap elements in one container
+Block take complete width eg div,p
+
+Inline take as much as they need eg span link
+
+1. div
+2. span
+
+Input and form
+
+input
+attribute type - what type of input it will be
+	value - define value in the element
+
+type - text,button,checkbox(multiple can be checked),radio button(if same name then only one can be user),password,email,date,file,range,submit
+
+textarea
+
+form - wrapper for different input tags

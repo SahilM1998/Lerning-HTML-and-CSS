@@ -1,0 +1,13 @@
+Link tag in HTM head tag is used to link the css file to HTML it is called as external styling
+
+Selectors
+
+Selectors are way of grabbing and manipulating HTML
+
+element selector - select entire element
+Class selector - select element with certain class name
+can be used multiple times
+.className
+ID slector  - select element with certain ID name
+can be used on one element at a time 
+#IDName
