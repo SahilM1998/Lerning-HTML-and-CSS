@@ -12,12 +12,23 @@ ID slector  - select element with certain ID name
 can be used on one element at a time 
 #IDName
 
-ajbfsdjbvsdjbvksjvskv
-efwf
-eefewfew
-wfwef
-wfwf
-fwefewf
-fwefwef
-dkjwqbfewkf
-flewnvkewnf
+Specificity and when to use
+Talks about rewritting of properties in css
+
+element<Class<ID<Inline styling
+class are user multiple type
+Id supposed to be used only once
+
+pseudo selector
+selector:hover{}
+
+firstchild
+lastchild
+nth-child(n)
+only-child
+
+
+
+
+
+

@@ -1,3 +1,32 @@
-body {
-  background: red;
+.title {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#contactUs {
+  color: green;
+}
+
+h2:hover {
+  color: aqua;
+}
+
+#services {
+  color: yellow;
+}
+
+li:first-child {
+  color: steelblue;
+}
+li:nth-child(2) {
+  color: palevioletred;
+}
+li:last-child {
+  color: gold;
+}
+td:only-child {
+  color: palegreen;
 }
