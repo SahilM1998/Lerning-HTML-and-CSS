@@ -27,6 +27,23 @@ lastchild
 nth-child(n)
 only-child
 
+link
+visited
+hover
+active
+
++ -> left tag whose next right tag apply this property
+~ -> every right tag followes by first tag have same parent 
+> -> inside left tag present in right tag
+
+[attr=value]
+
+^= starts
+$= ends
+*= search complete string
+~=
+|=
+
 
 
 

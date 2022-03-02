@@ -30,3 +30,23 @@ li:last-child {
 td:only-child {
   color: palegreen;
 }
+
+/* #googleLink:link {
+  color: blue;
+}
+
+#googleLink:visited {
+  color: red;
+} */
+
+h2 + a {
+  color: brown;
+}
+
+textarea ~ button {
+  color: chartreuse;
+}
+
+ul li {
+  color: darkorchid;
+}
